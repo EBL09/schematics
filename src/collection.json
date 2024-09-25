@@ -1,0 +1,10 @@
+{
+  "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
+  "schematics": {
+    "standard": {
+      "description": "Clona un repositorio específico",
+      "factory": "./standard/index#cloneRepo",
+      "schema": "./standard/schema.json"
+    }
+  }
+}

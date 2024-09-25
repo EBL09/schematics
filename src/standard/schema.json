@@ -1,0 +1,23 @@
+{
+    "schema": "http://json-schema.org/schema",
+    "$id": "standard",
+    "type": "object",
+    "properties": {
+      "repoUrl": {
+        "type": "string",
+        "description": "La URL del repositorio de Git a clonar",
+        "default": "https://github.com/EBL09/standard.git"
+      },
+      "branch": {
+        "type": "string",
+        "description": "La rama a usar en el repositorio",
+        "default": "schema"
+      },
+      "path": {
+        "type": "string",
+        "description": "La carpeta donde clonar el repositorio",
+        "default": ""
+      }
+    }
+}
+  
