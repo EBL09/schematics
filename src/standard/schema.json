@@ -11,7 +11,7 @@
       "branch": {
         "type": "string",
         "description": "La rama a usar en el repositorio",
-        "default": "schema"
+        "default": "master"
       },
       "path": {
         "type": "string",

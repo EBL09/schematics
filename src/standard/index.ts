@@ -18,7 +18,7 @@ export function cloneRepo(options: any): Rule {
     }
 
     const repoUrl = 'https://github.com/EBL09/standard.git';
-    const branch = options.branch || 'schema';
+    const branch = options.branch || 'master';
 
     // Clonar el repositorio y hacer checkout de la rama específica
     try {
